@@ -1,0 +1,69 @@
+body {
+    background-color:rgb(254, 174, 201);
+}
+.barra {
+    background-color: pink;
+    font-family: 'Shadows Into Light';
+}
+
+/* Título */
+.encabezado {
+    /* height: 60px;
+    padding: 30px; */
+    /* height: 3em; */
+    /* padding: 3em; */
+    background-image: url("../img/landing/logoinicial2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1 {
+    margin: 0px;
+    text-align: left;
+    color: black;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium';
+}
+
+/*Tamaño que ocupará la tabla en la pantalla - se ajusta según el texto de la foto*/
+.tabla1{
+    width: 100%;
+    font-family: Verdana;
+}
+
+/* Para poder ver los bordes de la tabla*/
+.tabla1, td{
+    margin: auto;
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+} 
+
+
+/* Centrar imágen en td*/
+.imgtabla {
+    text-align: center;
+}
+
+/* Tamaño de imágen en img*/
+.imgsz{
+    width: 80%;
+}
+
+/* Pie de página */
+.footer{
+    background-color:rgb(254, 174, 201);
+    /* margin-top: 40px;  */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    width: 100%;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+/* Quitar formato a link de footer */
+.a-sintexto{
+    text-decoration: none;
+    color:blueviolet;
+}
