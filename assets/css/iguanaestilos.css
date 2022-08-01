@@ -13,6 +13,12 @@ body {
 } */
 
 /* Configuración Header */
+
+.barra{
+    background-color:pink;
+    font-family: 'Shadows Into Light';
+  }
+  
 header {
     display: block;
 }
@@ -28,6 +34,7 @@ header h1 {
 .iguana-header {
     width: 100%;
 }
+
 
 /* Sección 1 - descrición*/
 .iguana-descripcion {
