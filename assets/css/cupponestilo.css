@@ -10,6 +10,12 @@ body {
     padding-left: 1em;
 }
 
+.barra{
+    /* background-color:pink; */
+    font-family: 'Shadows Into Light';
+    /* background-color:#0c7063; */
+}
+
 /* CARDS */
 .boton-form {
     margin-left: 45%;

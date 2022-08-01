@@ -15,10 +15,10 @@ body {
 /* Configuración Header */
 
 .barra{
-    background-color:pink;
+    background-color:rgb(40, 180, 5);
     font-family: 'Shadows Into Light';
-  }
-  
+}
+
 header {
     display: block;
 }

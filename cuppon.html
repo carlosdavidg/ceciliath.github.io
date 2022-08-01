@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
     <!-- CDN Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Para ver los iconos en boostrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Script bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -25,12 +26,14 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Cuppon</title>
+    <link rel="shortcut icon" href="assets/img/cuppon/cupponfv.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/cupponestilo.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success barra">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo-white.png" alt="logo blanco"
+            <a class="navbar-brand" href="#"><img src="assets/img/cuppon/logo-white.png" alt="logo blanco"
                     class="imgnavbar"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +42,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="landing-page.html">Landing Page</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="iguana.html">Iguana-Page</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="cuppon.html">Cuppon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="perfil.html">Perfil básico</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +66,7 @@
                 <!-- inicio columna -->
                 <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ps-4 my-4">
                     <div class="card">
-                        <img src="assets/img/cupon-1.jpg" class="card-img-top" alt="Plumones Manolino">
+                        <img src="assets/img/cuppon/cupon-1.jpg" class="card-img-top" alt="Plumones Manolino">
                         <div class="card-body">
                             <h5 class="card-title titulo">Plumón Coral Fleece estampado en modelo y tamaño a elección
                             </h5>
@@ -82,7 +88,7 @@
                 <!-- inicio columna -->
                 <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ps-4 my-4">
                     <div class="card">
-                        <img src="assets/img/cupon-2.jpg" class="card-img-top" alt="V for Vegan">
+                        <img src="assets/img/cuppon/cupon-2.jpg" class="card-img-top" alt="V for Vegan">
                         <div class="card-body">
                             <h5 class="card-title titulo">Entrada para compartir + platos de fondo + postres +
                                 bebestibles</h5>
@@ -103,7 +109,7 @@
                 <!-- inicio columna -->
                 <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ps-4 my-4">
                     <div class="card">
-                        <img src="assets/img/cupon-3.jpg" class="card-img-top" alt="Clinica Dental Quijada">
+                        <img src="assets/img/cuppon/cupon-3.jpg" class="card-img-top" alt="Clinica Dental Quijada">
                         <div class="card-body">
                             <h5 class="card-title titulo">Evaluación integral + blanqueamiento dental led + limpieza +
                                 fluoración</h5>
@@ -124,7 +130,7 @@
                 <!-- inicio columna -->
                 <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ps-4 my-4">
                     <div class="card">
-                        <img src="assets/img/cupon-4.jpg" class="card-img-top" alt="Suricata almacen">
+                        <img src="assets/img/cuppon/cupon-4.jpg" class="card-img-top" alt="Suricata almacen">
                         <div class="card-body">
                             <h5 class="card-title titulo">Colación para 2 personas + postre (no incluye bebidas)</h5>
                             <p class="card-text texto1">Suricata almacen</p>
@@ -144,7 +150,7 @@
                 <!-- inicio columna -->
                 <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ps-4 my-4">
                     <div class="card">
-                        <img src="assets/img/cupon-5.jpg" class="card-img-top" alt="Stukids Centro de Eventos">
+                        <img src="assets/img/cuppon/cupon-5.jpg" class="card-img-top" alt="Stukids Centro de Eventos">
                         <div class="card-body">
                             <h5 class="card-title titulo">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
                             <p class="card-text texto1">Stukids Centro de Eventos</p>
@@ -163,7 +169,7 @@
                 <!-- inicio columna -->
                 <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ps-4 my-4">
                     <div class="card">
-                        <img src="assets/img/cupon-6.jpg" class="card-img-top" alt="D-Latam Travel">
+                        <img src="assets/img/cuppon/cupon-6.jpg" class="card-img-top" alt="D-Latam Travel">
                         <div class="card-body">
                             <h5 class="card-title titulo">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección
                             </h5>
@@ -198,7 +204,7 @@
 
 
     <footer>
-        <img src="assets/img/logo-black.png" alt="logo negro" class="imgfooter">
+        <img src="assets/img/cuppon/logo-black.png" alt="logo negro" class="imgfooter">
         <p>© 2018 Cuppon Latam .Todos los derechos reservados.</p>
     </footer>
 
