@@ -8,9 +8,6 @@ body {
     font-family: 'Mali', cursive;
 }
 
-.corrernav {
-    margin-left: auto;
-}
 .inicio{
 background-image: url("../img/index/posiblefondocv.jpg");
 background-repeat: repeat;
@@ -24,4 +21,15 @@ opacity: 80%;
 
 .sin-punto{
     list-style: none;
+}
+
+.imgsize{
+    width: 400px;
+    height: 400px;
+}
+
+.link-hover:hover{
+    color:darkmagenta;
+    font-size: 20px;
+    /* font-size: 1,25em; */
 }
