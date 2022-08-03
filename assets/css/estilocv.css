@@ -1,6 +1,6 @@
 body {
     font-family: 'Merriweather', serif;
-    background-image: url("../img/index/fondo2.png");
+
 }
 
 .barra {
@@ -8,12 +8,6 @@ body {
     font-family: 'Mali', cursive;
 }
 
-.inicio{
-background-image: url("../img/index/posiblefondocv.jpg");
-background-repeat: repeat;
-background-size: cover;
-opacity: 80%;
-}
 
 .letratitulo{
     font-family: 'Cinzel', serif;
@@ -25,14 +19,34 @@ opacity: 80%;
 
 .imgsize{
     width: 400px;
-    height: 400px;
+    height: 300px;
+
+
 }
 
 .link-hover:hover{
-    color:darkmagenta;
     font-size: 20px;
+    text-decoration: none;
+    color: rgb(228, 80, 161);
+    
+}
+
+.footer-custom a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .letra{
     font-family: 'Libre Franklin', sans-serif;
+}
+
+.letra a {
+   color: #000;
+   text-decoration: none;
+}
+
+.card {
+    align-items: center;
+    padding: 0;
+    margin: 10px;
 }
