@@ -39,29 +39,29 @@ header h1 {
 
 
 /* Sección 1 - descrición*/
-.iguana-descripcion {
+/* .iguana-descripcion {
     height: 348px;
-    /* display: flow-root; */
-}
+    display: flow-root; 
+} */
 
 .iguana-1 {
     width: 399px;
-    height: 237px;
+    /* height: 237px; */
     /* float: right; */
-    /* padding-top: 65px;
-    padding-right: 150px;
-    padding-bottom: 66px; */
+    /* padding-top: 65px; */
+    /* padding-right: 150px; */
+    /* padding-bottom: 66px; */
 }
 
 .textos-iguanas {
     /* display: inline-block; */
-    height: 348px;
-    width: 475px;
-    padding-top: 76px;
-    padding-bottom: 75px;
-    padding-left: 150px;
+    /* height: 348px;
+    width: 475px; */
+    /* padding-top: 76px;
+    padding-bottom: 75px; */
+    /* padding-left: 150px; */
     font-weight: 300px;
-    line-height: 1em;
+    line-height: 16px;
 }
 
 /* .textos-iguanas:hover {
@@ -79,7 +79,7 @@ header h1 {
 /* Sección 2 - Características */
 .caracteristicas {
     background-color: #1E1A13;
-    height: 348px;
+    /* height: 348px; */
     text-align: center;
 }
 
@@ -98,34 +98,34 @@ header h1 {
 }
 
 .cualidad-iguanas {
-    /* text-align: center; */
+    /* text-align: center;  */
     font-size: 25px;
-    width: 33%;
+    /* width: 33%; */
     padding-top: 1em;
     padding-bottom: 1em;
-}
+} 
 
 /* .caracteristicas .cualidad-iguanas {
     display: inline-block;
 } */
 
 /* Galería de imágenes de Iguanas */
+
 .galeria-iguanas .imgsize {
     width: 316px;
     height: 202px;
     /* display: inline-block; */
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
-
 .galeria-iguanas {
-    height: 348px;
+    /* height: 348px; */
     line-height: 348px;
     text-align: center;
 }
 
 /* Pie de página */
 footer {
-    height: 102px;
+    /* height: 102px; */
     background-color: #1E1A13;
     text-align: center;
 }
